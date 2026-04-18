@@ -115,11 +115,11 @@ useEffect(()=>{
   <div className='flex items-center justify-center m-5 gap-3'>
 
     <div>
-    <input type='text' onChange={(e)=>setUSerName(e.target.value)} className=' outline-2 focus:outline-3 p-2 w-100 xs:w-110 sm:w-130 md:w-170 lg:w-200 py-3 rounded-sm outline-black focus:outline-blue-500 ' placeholder='Enter Name' value={UserName}/>
+    <input type='text' onChange={(e)=>setUSerName(e.target.value)} className=' outline-2 focus:outline-3 p-2 w-70 xs:w-80 sm:w-100 md:w-160 lg:w-180 py-3 rounded-sm outline-black focus:outline-blue-500 ' placeholder='Enter Name' value={UserName}/>
 </div>
 <div>
 
-    <button onClick={()=>{SetShowUserAdd(true)}} className='bg-[#3B82F6] hover:bg-blue-600 cursor-pointer text-white md:text-lg text-sm px-4 py-3 rounded-md'>Add User</button>
+    <button onClick={()=>{SetShowUserAdd(true)}} className='bg-[#3B82F6] hover:bg-blue-600 cursor-pointer text-white md:text-lg text-sm px-3 py-2 rounded-md'>Add User</button>
 </div>
 </div><br/>
 <h1 className='p-3 text-2xl'><strong>Total Users : </strong>{card.length}</h1>

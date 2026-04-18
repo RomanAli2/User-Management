@@ -1,7 +1,7 @@
 function FooterSection(){
     return(
         <>
-<div className="h-22 w-full  text-sm md:text-lg font-bold justify-around text-white bg-blue-500 flex items-center">
+<div className="h-22 w-full flex-wrap gap-3 text-sm md:text-lg font-bold justify-around text-white bg-blue-500 flex items-center">
 <span className="flex gap-2 items-center">
     <i class='fa-solid fa-user'></i>
     User Management
